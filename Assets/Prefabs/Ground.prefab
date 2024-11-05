@@ -13,6 +13,10 @@ GameObject:
   - component: {fileID: 5937363189566373593}
   - component: {fileID: 6550250997830704410}
   - component: {fileID: 1712369533693679763}
+  - component: {fileID: -8696886181651386848}
+  - component: {fileID: 3453593495197313015}
+  - component: {fileID: 4384065084476839929}
+  - component: {fileID: -8491452077337359815}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -136,3 +140,55 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-8696886181651386848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41715490904160196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51bd1210b2d8114468f6952e4cefe193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundDataTransmitter: {fileID: 4384065084476839929}
+--- !u!114 &3453593495197313015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41715490904160196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4467b06632601694c8cba1f70b54065d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4384065084476839929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41715490904160196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39df0060106327479081904d6cf6c5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundFallController: {fileID: 3453593495197313015}
+--- !u!114 &-8491452077337359815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41715490904160196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4daa97d6f2c27f043a80d2c8bf930a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnController: {fileID: 0}
+  rb: {fileID: 0}

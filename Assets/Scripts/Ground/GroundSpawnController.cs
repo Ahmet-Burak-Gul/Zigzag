@@ -15,7 +15,7 @@ public class GroundSpawnController : MonoBehaviour
 
     private void GanerateRandomGround()
     {
-        for (int i = 0; i < 75; i++)
+        for (int i = 0; i <100; i++)
         {
             CreateNewGround();
         }
